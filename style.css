@@ -1,0 +1,68 @@
+/* This is a comment */
+
+
+#navbar {
+    background-color: rgb(244, 60, 9);
+    height: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+#navbar a {
+    color: black;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#navbar a:hover {
+    color:gold;
+}
+
+h1 {
+    color: red;
+    font-size: 30px;
+
+}
+
+
+.medium {
+    font-size: 20px;
+}
+
+.large {
+    font-size: 30px;
+}
+.center {
+    text-align: center;
+}
+
+.left {
+    text-align: left;
+}
+
+#lambshanknihari {
+    width: (10,20,30);
+}
+
+.background {
+    background-color: goldenrod;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 800;
+}
+
+.sideBySide {
+    display: flex;
+}
+
+.sideBySide img {
+    width: 40%;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
